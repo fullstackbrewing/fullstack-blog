@@ -8,7 +8,7 @@ head:
         short_name: Fullstack
         start_url: 
         theme_color:
-        background_color: 
+        background_color: red
         display: standalone
         icons:
             -
@@ -48,20 +48,39 @@ navbar:
         Tags: /tags
         About: /about
     links:
-        Download on GitHub:
+        View on Instagram:
+            icon: fab fa-instagram
+            url: https://www.instagram.com/fullstackbrewing/
+        View on Facebook:
+            icon: fab fa-facebook
+            url: https://www.facebook.com/fullstackbrewing
+        View on Twitter:
+            icon: fab fa-twitter
+            url: https://twitter.com/fullstackbeer
+        View on GitHub:
             icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
+            url: https://github.com/griffithben/fullstack-blog
+
 footer:
     links:
+        View on Instagram:
+            icon: fab fa-instagram
+            url: https://www.instagram.com/fullstackbrewing/
+        View on Facebook:
+            icon: fab fa-facebook
+            url: https://www.facebook.com/fullstackbrewing
+        View on Twitter:
+            icon: fab fa-twitter
+            url: https://twitter.com/fullstackbeer
+        View on GitHub:
+            icon: fab fa-github
+            url: https://github.com/griffithben/fullstack-blog
         Creative Commons:
             icon: fab fa-creative-commons
             url: https://creativecommons.org/
         Attribution 4.0 International:
             icon: fab fa-creative-commons-by
             url: https://creativecommons.org/licenses/by/4.0/
-        Download on GitHub:
-            icon: fab fa-github
-            url: https://github.com/ppoffice/hexo-theme-icarus
 article:
     highlight:
         theme: atom-one-light
@@ -84,30 +103,15 @@ search:
     index_pages: true
 comment:
     type: disqus
-    shortname: ''
+    shortname: 'fullstackbrewing'
 donates:
     -
-        type: afdian
-        url: ''
-    -
-        type: alipay
-        qrcode: ''
-    -
         type: buymeacoffee
-        url: ''
-    -
-        type: patreon
-        url: ''
+        url: 'https://www.buymeacoffee.com/WoEhVsNsaK'
     -
         type: paypal
-        business: ''
+        business: griffith.ben@gmail.com
         currency_code: USD
-    -
-        type: wechat
-        qrcode: ''
-share:
-    type: sharethis
-    install_url: ''
 sidebar:
     left:
         sticky: false
@@ -127,7 +131,7 @@ widgets:
         social_links:
             Github:
                 icon: fab fa-github
-                url: https://github.com/ppoffice
+                url: https://github.com/griffithben/fullstack-blog
             Facebook:
                 icon: fab fa-facebook
                 url: https://www.facebook.com/fullstackbrewing
@@ -158,22 +162,6 @@ widgets:
         order_by: name
         amount: 
         show_count: true
-    -
-        position: left
-        type: subscribe_email
-        description: 
-        feedburner_id: ''
-    -
-        position: left
-        type: adsense
-        client_id: ''
-        slot_id: ''
-    -
-        position: left
-        type: followit
-        description: 
-        action_url: ''
-        verification_code: ''
 plugins:
     animejs: true
     back_to_top: true
