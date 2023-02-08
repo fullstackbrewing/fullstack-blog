@@ -1,22 +1,23 @@
-name: GitHub Pages
-
-on: push
-
+name: Hexo Deploy GitHub Pages
+on:
+  push:
+    branches:
+      - main
 jobs:
-  publish:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '14'
-      - run: npm install
-#      - run: npx hexo algolia
-#        env:
-#          HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
-      - run: NODE_ENV=production npx hexo g
-      - uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
-          force_orphan: true
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Build and Deploy
+        uses: theme-keep/hexo-deploy-github-pages-action@master
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          # The repository the action should deploy to.
+          PUBLISH_REPOSITORY: griffithben/fullstack-blog
+
+          # The branch the action should deploy to.
+          BRANCH: gh-pages
