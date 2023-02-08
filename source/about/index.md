@@ -12,6 +12,7 @@ date: 2016-12-21 12:00:00
 
 # About
 
-I started brewing in 2012.  Like a lot of others, my wife had bought me a Mr. Beer kit.  After doing a couple of kits, I was hooked.  From then on it was a series of learning, trying and expanding throughout the years.
+I first got the bug of homebrewing back in 2012. Like a lot of others, my wife had bought me a Mr. Beer kit. After doing a couple of kits, I
+was hooked. From there its been years of learning new techniques, gathering new equipment and updating my workflows.
 
-Fullstack Brewing got its name coming from my career as a fullstack developer.  Someone who took on all aspects of a project from beginning to end.
+Fullstack Brewing got its name coming from my career as a fullstack developer.
