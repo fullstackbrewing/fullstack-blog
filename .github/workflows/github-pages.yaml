@@ -17,7 +17,7 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
           # The repository the action should deploy to.
-          PUBLISH_REPOSITORY: griffithben/fullstack-blog
+          PUBLISH_REPOSITORY: fullstackbrewing/fullstack-blog
 
           # The branch the action should deploy to.
           BRANCH: gh-pages
