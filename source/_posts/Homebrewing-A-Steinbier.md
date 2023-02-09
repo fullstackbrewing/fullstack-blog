@@ -17,7 +17,9 @@ email: linkpurvis@gmail.com
 
 ### What’s a Steinbier
 
-Steinbier simply means “stone beer” in German. It is an old brewing process, that involves using super heated rocks added to the wort to boil it. This process dates back to the early days of brewing, before the introduction of large metal kettles which could be heated by flame to produce a boil. There is some fascinating history behind this process and I highly recommend Fred Eckhardt’s 2001 write up in All About Beer Magazine. (Unfortunately All About Beer Magazine no longer exists.  Read about [What Happened to All About Beer](https://kitchennish.com/what-happened-to-all-about-beer/)).
+Steinbier simply means “stone beer” in German. It is an old brewing process, that involves using super heated rocks
+added to the wort to boil it. This process dates back to the early days of brewing, before the introduction of large
+metal kettles which could be heated by flame to produce a boil.
 
 <!-- more -->
 
@@ -94,7 +96,10 @@ Omega OYL-057 HotHead Ale
 6oz of green Eastern Red Cedar tips split between mash and sparge water.
 
 ### Steps
-Build a large fire around your stones and light it about 3-4 hours before you plan to boil your wort. You may need to keep feeding the fire so it stays warm. Hardwoods like oak and elm will burn nice and hot and are excellent choices for fuel. 
+
+Build a large fire around your stones and light it about 3-4 hours before you plan to boil your wort. You may need to
+keep feeding the fire so it stays warm. Hardwoods like oak and elm will burn nice and hot and are excellent choices for
+fuel.
 
 <div class="columns is-multiline">
     <div class="column is-10 is-offset-1">
@@ -102,7 +107,11 @@ Build a large fire around your stones and light it about 3-4 hours before you pl
     </div>
 </div>
 
-After the fire has burned for a couple hours, go ahead and prepare your mash. I choose to aim for a mash temp of 154F for a nice medium-full bodied beer but this is open to your interpretation if you would like to try something different. After mixing in the grains, I picked off about 3oz of cedar tips and threw them into the mash and stirred them in. If you think a normal mash smells great and the smell of cedar is pleasant to you, prepare for some pretty awesome mash smells. 
+After the fire has burned for a couple hours, go ahead and prepare your mash. I choose to aim for a mash temp of 154F
+for a nice medium-full bodied beer but this is open to your interpretation if you would like to try something different.
+After mixing in the grains, I picked off about 3oz of cedar tips and threw them into the mash and stirred them in. If
+you think a normal mash smells great and the smell of cedar is pleasant to you, prepare for some pretty awesome mash
+smells.
 
 <div class="columns is-multiline">
     <div class="column is-10 is-offset-1">
@@ -113,7 +122,9 @@ After the fire has burned for a couple hours, go ahead and prepare your mash. I 
     </div>
 </div>
 
-I let it mash for 1 hour and  then prepared my sparge water while I waited. I heated my sparge water to 165F and added 3 more ounces of cedar tips into the water in order to infuse it with those great cedar flavors. Once the hour timer was up, I ran out the wort from the tun into my boil kettle and batch sparged with the cedar water to my boil volume. 
+I let it mash for 1 hour and then prepared my sparge water while I waited. I heated my sparge water to 165F and added 3
+more ounces of cedar tips into the water in order to infuse it with those great cedar flavors. Once the hour timer was
+up, I ran out the wort from the tun into my boil kettle and batch sparged with the cedar water to my boil volume.
 
 <div class="columns is-multiline">
     <div class="column is-10 is-offset-1">
@@ -121,7 +132,13 @@ I let it mash for 1 hour and  then prepared my sparge water while I waited. I he
     </div>
 </div>
 
-This is where the fun begins. Using the tongs, grab a couple stones from the fire, one at a time, and place them in the kettle. Be careful to avoid splashing. Depending on the temperature of the wort, it may take a couple stones to get the wort to boil. Once it does get to a boil, it will boil vigorously. Add a stone about every 10min or whenever you notice the surface of the wort stop to boil. Add your hop additions at their indicated times and enjoy the process. Chill down to pitching temps and then transfer to your fermenter. Pitch your yeast and let it ferment out for 10 days. If you use the Omega HotHead, make sure to let it ramp up to around 80f at least to ensure full attenuation. Bottle or keg the beer and enjoy once it has carbed up!
+This is where the fun begins. Using the tongs, grab a couple stones from the fire, one at a time, and place them in the
+kettle. Be careful to avoid splashing. Depending on the temperature of the wort, it may take a couple stones to get the
+wort to boil. Once it does get to a boil, it will boil vigorously. Add a stone about every 10min or whenever you notice
+the surface of the wort stop to boil. Add your hop additions at their indicated times and enjoy the process. Chill down
+to pitching temps and then transfer to your fermenter. Pitch your yeast and let it ferment out for 10 days. If you use
+the Omega HotHead, make sure to let it ramp up to around 80f at least to ensure full attenuation. Bottle or keg the beer
+and enjoy once it has carbed up!
 
 <div class="columns is-multiline">
     <div class="column is-10 is-offset-1">
