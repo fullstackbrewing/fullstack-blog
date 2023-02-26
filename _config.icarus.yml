@@ -16,7 +16,7 @@ head:
                 sizes: ''
                 type: 
     open_graph:
-        title: Fullstack Brewing
+        title:
         type: blog
         url: 
         image: /img/og_fullstack.png
