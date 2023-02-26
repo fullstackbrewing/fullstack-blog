@@ -16,12 +16,12 @@ head:
                 sizes: ''
                 type: 
     open_graph:
-        title: 
+        title: Fullstack Brewing
         type: blog
         url: 
-        image: 
-        site_name: 
-        author: 
+        image: /img/og_fullstack.png
+        site_name: Fullstack Brewing
+        author: Ben Griffith
         description: 
         twitter_card: 
         twitter_id: 
