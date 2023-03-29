@@ -13,7 +13,7 @@ thumbnail: /img/covers/blowoff-cover.jpg
 category:
 - hardware
 author: Ben Griffith
-email: griffith.ben@gmail.com
+email: fullstackbrewing@gmail.com
 ---
 
 ### The Reason

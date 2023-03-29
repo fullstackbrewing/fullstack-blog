@@ -12,7 +12,7 @@ thumbnail: /img/covers/mash-tun-cover.jpg
 category:
 - hardware
 author: Ben Griffith
-email: griffith.ben@gmail.com
+email: fullstackbrewing@gmail.com
 ---
 
 ### I Outgrew the Cooler

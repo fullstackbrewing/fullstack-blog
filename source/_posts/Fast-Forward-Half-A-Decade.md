@@ -9,7 +9,7 @@ thumbnail: /img/covers/fast-forward-half-a-decade-cover.jpg
 category:
 - life
 author: Ben Griffith
-email: griffith.ben@gmail.com
+email: fullstackbrewing@gmail.com
 ---
 ### It's Been a While... My Bad.
 

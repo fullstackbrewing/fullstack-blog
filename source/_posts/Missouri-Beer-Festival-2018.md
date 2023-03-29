@@ -11,7 +11,7 @@ thumbnail: /img/covers/missouri-beerfest-2018-cover.jpg
 category:
 - events
 author: Ben Griffith
-email: griffith.ben@gmail.com
+email: fullstackbrewing@gmail.com
 ---
 
 ## Brace Yourself, Beer Festivals Are Coming...

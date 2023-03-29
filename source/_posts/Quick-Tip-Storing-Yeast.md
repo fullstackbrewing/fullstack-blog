@@ -11,7 +11,7 @@ thumbnail: /img/covers/lid-cover.jpg
 category:
 - hardware
 author: Ben Griffith
-email: griffith.ben@gmail.com
+email: fullstackbrewing@gmail.com
 ---
 
 ### Mason Jars Work Great!

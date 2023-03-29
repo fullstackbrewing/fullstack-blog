@@ -12,7 +12,7 @@ thumbnail: /img/covers/grant-cover.jpg
 category:
 - hardware
 author: Ben Griffith
-email: griffith.ben@gmail.com
+email: fullstackbrewing@gmail.com
 ---
 
 ### What is a grant?
