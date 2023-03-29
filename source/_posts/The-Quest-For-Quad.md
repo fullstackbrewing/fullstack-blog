@@ -27,7 +27,7 @@ When I knew I wanted to start brewing Belgian beers, I wanted mine to be a big b
 
 Together, Lincoln Purvis and I decided on a Belgian Quad recipe that we would both brew and submit to the competition.  Both of us brewing on completely different systems that would yield different results.  On Lincoln's system, (if I remember correctly) came out with a beer in the mid 9% ABV range.  However, on my system it ended up in the lower 10% ABV range.  Ultimately, mine just had a tad more ABV than his.
 
-Thus, we needed a related name.  Fortunately the Quaid Brothers came to mind!  We both thought the Quaid brothers were fun actors, but obviously was one was a little more eccentric than the other. The "bigger" beer went to Randy and the more "respectful" beer went to Dennis.  Thus, the higher ABV went to me and the more reasonable beer went to Lincoln.
+Thus, we needed a related name.  Fortunately the Quaid Brothers came to mind!  We both thought the Quaid brothers were fun actors, but obviously one was a little more eccentric than the other. The "bigger" beer went to Randy and the more "respectful" beer went to Dennis.  Thus, the higher ABV went to me and the more reasonable beer went to Lincoln.
 
 <div class="columns is-multiline">
     <div class="column is-half">
@@ -40,7 +40,7 @@ Thus, we needed a related name.  Fortunately the Quaid Brothers came to mind!  W
 
 ### An Ever Changing Recipe
 
-For years I was tinkering with the recipe.  The hardest part was getting a high enough mash efficiency to get the original gravity needed.  Besides that, subtle grain additions were made along with different candi sugars and relative hop substitutions.
+For years I have been tinkering with the recipe.  The hardest part was getting a high enough mash efficiency to get the original gravity needed.  Besides that, subtle grain additions were made along with different candi sugars and relative hop substitutions.
 
 Ultimately, I wanted to shoot for a dark Belgian Quad with malty flavors, a lighter mouthfeel and an aroma with deep fruit accents.  This converged on the current recipe I have going and happy to share from Brewfather: [Randy Quad - Belgian Dark Strong Ale](https://share.brewfather.app/32vv9hjE01T6z9).
 
@@ -83,7 +83,7 @@ My goto yeast of late for Belgian Beers has been White Labs WLP550.  It's been a
 
 #### Water
 
-For all of my beers, I start with Reverse Osmosis water from the local grocery store as my base.  Where I live the water is pretty hard and I have just grown accustomed to building a profile from scratch.  This is no admittance that I understand water chemistry, but that I put a lot of faith in what Brewfather/Beersmith has told me over the years!
+For all of my beers, I start with Reverse Osmosis water from the local grocery store as my base.  Where I live the water is pretty hard and I have become accustomed to building a profile from scratch.  This is no admittance that I understand water chemistry, but that I put a lot of faith in what Brewfather/Beersmith has told me over the years!
 
 - Mash - Calcium Chloride (CaCl2) (6.5g)
 - Mash - Epsom Salt (MgSO4) (3.2g)
