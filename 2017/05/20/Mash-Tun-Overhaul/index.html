@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>Mash Tun Overhaul - Fullstack Brewing</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Fullstack Brewing"><meta name="msapplication-TileImage" content="/img/fullstack_logo.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Fullstack Brewing"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="I Outgrew the CoolerLike a lot that move to all grain, you start out with a 10 gallon water cooler.  They work exceptionally well, holding a temp with only a 1&amp;amp;deg;F drop over the course of an hou"><meta property="og:type" content="blog"><meta property="og:title" content="Mash Tun Overhaul"><meta property="og:url" content="http://fullstackbrewing.com/2017/05/20/Mash-Tun-Overhaul/"><meta property="og:site_name" content="Fullstack Brewing"><meta property="og:description" content="I Outgrew the CoolerLike a lot that move to all grain, you start out with a 10 gallon water cooler.  They work exceptionally well, holding a temp with only a 1&amp;amp;deg;F drop over the course of an hou"><meta property="og:locale" content="en_US"><meta property="og:image" content="http://fullstackbrewing.com/img/og_fullstack.png"><meta property="article:published_time" content="2017-05-20T12:00:00.000Z"><meta property="article:modified_time" content="2023-03-29T04:23:10.890Z"><meta property="article:author" content="Ben Griffith"><meta property="article:tag" content="engineering"><meta property="article:tag" content="mash tun"><meta property="article:tag" content="keg"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="http://fullstackbrewing.com/img/og_fullstack.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://fullstackbrewing.com/2017/05/20/Mash-Tun-Overhaul/"},"headline":"Mash Tun Overhaul","image":["http://fullstackbrewing.com/img/covers/mash-tun-cover.jpg"],"datePublished":"2017-05-20T12:00:00.000Z","dateModified":"2023-03-29T04:23:10.890Z","author":{"@type":"Person","name":"Ben Griffith"},"publisher":{"@type":"Organization","name":"Fullstack Brewing","logo":{"@type":"ImageObject","url":"http://fullstackbrewing.com/img/fullstack_nav_logo.png"}},"description":"I Outgrew the CoolerLike a lot that move to all grain, you start out with a 10 gallon water cooler.  They work exceptionally well, holding a temp with only a 1&amp;deg;F drop over the course of an hou"}</script><link rel="canonical" href="http://fullstackbrewing.com/2017/05/20/Mash-Tun-Overhaul/"><link rel="icon" href="/img/fullstack_logo.png"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/fullstack_nav_logo.png" alt="Fullstack Brewing" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a><a class="navbar-item" href="/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="View on Instagram" href="https://www.instagram.com/fullstackbrewing/"><i class="fab fa-instagram"></i></a><a class="navbar-item" target="_blank" rel="noopener" title="View on Facebook" href="https://www.facebook.com/fullstackbrewing"><i class="fab fa-facebook"></i></a><a class="navbar-item" target="_blank" rel="noopener" title="View on Twitter" href="https://twitter.com/fullstackbeer"><i class="fab fa-twitter"></i></a><a class="navbar-item" target="_blank" rel="noopener" title="View on GitHub" href="https://github.com/fullstackbrewing/fullstack-blog"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-image"><span class="image is-7by3"><img class="fill" src="/img/covers/mash-tun-cover.jpg" alt="Mash Tun Overhaul"></span></div><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2017-05-20T12:00:00.000Z" title="5/20/2017, 12:00:00 PM">2017-05-20</time></span><span class="level-item"> Ben Griffith </span><span class="level-item"><a class="link-muted" href="/categories/hardware/">hardware</a></span><span class="level-item">8 minutes read (About 1218 words)</span></div></div><h1 class="title is-3 is-size-4-mobile">Mash Tun Overhaul</h1><div class="content"><h3 id="I-Outgrew-the-Cooler"><a href="#I-Outgrew-the-Cooler" class="headerlink" title="I Outgrew the Cooler"></a>I Outgrew the Cooler</h3><p>Like a lot that move to all grain, you start out with a 10 gallon water cooler.  They work exceptionally well, holding a temp with only a 1&amp;deg;F drop over the course of an hour (on a really cold day).  But, I wanted to make some bigger beers.  At most, the cooler could hold about 12kg of malt @ 2.5L&#x2F;KG of water.</p>
+<span id="more"></span>
+
+<div class="columns is-multiline">
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/the-cooler.jpg" alt="10 Gallon Rubbermaid Mash Tun."/>
+    </div>
+</div>
+
+<h3 id="So-Where-to-Go-Next"><a href="#So-Where-to-Go-Next" class="headerlink" title="So Where to Go Next?"></a>So Where to Go Next?</h3><p>The obvious step is to move up in size, however thats easier said than done.  If you want to keep from moving to a RIMS or HERMS system, and use a single infusion mash, your options are kind of limited.  One, you can move to a larger square cooler.  This would work great, but depending on your workflow it might not work.  Another option is moving to a keg.  Which is what I chose.</p>
+<h3 id="The-Keg"><a href="#The-Keg" class="headerlink" title="The Keg"></a>The Keg</h3><p>I ended up finding a rubberized 15.5 gallon keg.  I specifically wanted a rubber one hoping it would have some kind of insulative properties (more on that, and lack thereof later).</p>
+<div class="columns is-multiline">
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/the-start.jpg" alt="15.5 Gallon Rubber Keg."/>
+    </div>
+</div>
+
+<h3 id="Top-or-Bottom"><a href="#Top-or-Bottom" class="headerlink" title="Top or Bottom?"></a>Top or Bottom?</h3><p>The first decision was where to make the first cut.  Traditionally most seem to punch a hole in the side and run a line to a domed false bottom.  However, after stumbling across the blog post from <a target="_blank" rel="noopener" href="http://www.buttcrackbrewery.com/2012/02/25/insulated-kegmash-tun/">Buttcrack Brewery</a> I decided to cut the bottom and flip the keg over.  This would allow me to attach a 2” TC Clamp to the keg opening after the stem was removed.  I saw this as having two main benefits:</p>
+<p><strong>One:</strong> less hardware and connections to deal with.  I am of a philosophy of less stuff will result in less issues down the road.  Having multiple threads and connections could possibly result in more.  </p>
+<p><strong>Two:</strong> 0 deadspace.  Running through the original opening of the keg will bring all of the wort to a central location.  Dumping from the bottom-most spot of the keg will reduce the amount of waste you can have.</p>
+<h3 id="Lets-Cut"><a href="#Lets-Cut" class="headerlink" title="Lets Cut!"></a>Lets Cut!</h3><p>First, drill a pilot hole in the center of the bottom.  You will use this as a pivot point to draw your guide to cut on.  I drew a line around about an inch away from the lip edge so I would be able to place a lid on top.  Using an angle grinder with a stainless cutting wheel, take some small passes at the rubber exterior.  Be sure to wear breathing protection.  I didn’t and completely regret it.  This rubbery dust goes everywhere.</p>
+<div class="columns is-multiline">
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/remove-rubber.jpg" alt="Grind off the rubber."/>
+    </div>
+</div>
+
+<p>Next, we move on to the fun part, grinding through stainless!  Pretty straight forward, follow the same path as the removed rubber.  Be sure to take small passes.  Since you are grinding in a circle you don’t want to try and bend the grinding wheel, they are not flexible and grinder shrapnel sucks.</p>
+<div class="columns is-multiline">
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/remove-stainless.jpg" alt="Cut through the stainless."/>
+    </div>
+</div>
+
+<h3 id="Going-to-Need-a-Lid"><a href="#Going-to-Need-a-Lid" class="headerlink" title="Going to Need a Lid."></a>Going to Need a Lid.</h3><p>Originally I had planned to cut a lid out of a 12”x12” board.  Somehow I was thinking I would use a skill saw to cut a perfect 12” circle from the center and it would fit nicely.  As I was browsing the wood section at the hardware stare, I came upon a 12” barstool top.  It was perfect!  Dense, 12” perfect circle, and under $3!</p>
+<div class="columns is-multiline">
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/start-of-lid.jpg" alt="12in Barstool Top as a Lid"/>
+    </div>
+</div>
+
+<p>One of the features I needed in a lid with my setup was to be able to setup a sparge arm.  Simple enough, get a 3&#x2F;8” copper coil from your local hardware store.  Wrap it, drill it and you’re all set.</p>
+<div class="columns is-multiline">
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/lid-coil.jpg" alt="3/8in Copper Coil with small holes drilled in it."/>
+    </div>
+</div>
+
+<p>Now, I know what your thinking.  Wood isn’t a good choice, thats going to absorb a bunch of water and get skanky. But wait!  Theres a solution to this.  Wrap that sucka in silicone!</p>
+<div class="columns is-multiline">
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/lid-silicone-bottom.jpg" alt="12in Microwave Silicone."/>
+    </div>
+</div>
+
+<p>We are also going to need to make a seal around the edge.  What I ended up using was 1&#x2F;2” ID Silicone Tubing cut long ways.  Wrapped that around the edge of the lid and adhered with liquid silicone.  For my application I needed to do this twice to get enough thickness to meet the outside edge of the keg and to form a proper seal.</p>
+<div class="columns is-multiline">
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/lid-silicone-edge.jpg" alt="Edge Wrapped in 1/2in Cut Silicone Tubing."/>
+    </div>
+</div>
+
+<p>This ultimately covers the wooded surface area in silicone, increasing the lifetime of the lid. Will this lid last forever?  Probably not.  But on a homebrew scale, it’s put together cheaply enough that it can be replaced.</p>
+<h3 id="What-about-the-vorlauf"><a href="#What-about-the-vorlauf" class="headerlink" title="What about the vorlauf?"></a>What about the vorlauf?</h3><p>Having a return port on your tun is incredibly useful.  When I first started out, like most, I vorlaufed with a pitcher.  Filling it up, pouring it slowly into the top.  Rinse, lather, repeat.  I found it tiresome and a part of the brewing process I did not enjoy.  With the help of a pump and <a href="http://www.fullstackbrewing.com/2016/12/06/How-to-make-a-grant/" target="_blank">a grant</a>, it made things a lot easier.  To control the flow-rate I added in a bulkhead with a ball valve.  Now I can let the pump do all the heavy lifting for me!</p>
+<div class="columns is-multiline">
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/vorlauf-fitting.jpg" alt="Punch a hole and put in a bulk head."/>
+    </div>
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/vorlauf.jpg" alt="Added a valve for vorlauf flow rate control"/>
+    </div>
+</div>
+
+<p>One issue with having a fixed return port is grain bed height.  If you are doing a lighter beer with less grain, your bed is obviously going to be lower.  With that, your vorlauf return flow is going to fall much further and punch down through the grain bed, which isn’t ideal.  The solution I came up with is a series of linked T-Fittings with a plug in the bottom.  That way the direct flow won’t go straight down, but come out in stages.</p>
+<div class="columns is-multiline">
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/vorlauf-return.jpg" alt="Multi-Step Vorlauf Return."/>
+    </div>
+</div>
+
+<h3 id="The-False-Bottom"><a href="#The-False-Bottom" class="headerlink" title="The False Bottom"></a>The False Bottom</h3><p>As mentioned before, I decided to use the existing sanke connection as the bottom of my mash tun.  This provided a central point for the wort to flow out of the mash tun.  Using a setup from NorCal Brewing Solutions, I was able to attach a 2” Tri-Clamp fitting to the bottom with a 1&#x2F;2” NPT elbow and pipe.  On the inside, I put in a PICO Keg&#x2F;Keggle False Bottom Assembly.  </p>
+<div class="columns is-multiline">
+    <div class="column is-half">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/norcal-tri-clover-sanke-adapter.jpg" alt="NorCal Brewing Solutions Tri-Clamp Mash Tun Fitting." />
+    </div>
+    <div class="column is-half">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/false-bottom.jpg" alt="PICO Keg/Keggle False Bottom Assembly." />
+    </div>
+</div>
+
+<p>Doing it this way will also require you to create a small stand to set the mash tun on.  A few chunks of scrap 2x4 did the trick.</p>
+<div class="columns is-multiline">
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/false-bottom-installed.jpg" alt="False Bottom Installed."/>
+    </div>
+    <div class="column is-10 is-offset-1">
+        <img src="/2017/05/20/Mash-Tun-Overhaul/dry-run.jpg" alt="Dry run with the mash tun on a simple stand."/>
+    </div>
+</div>
+
+<h3 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h3><p>So I have started writing this blog post over a few months, and have actually used this setup a few times since starting. There have been a few things I have come accross that have been pretty helpful.</p>
+<h4 id="1-Pre-Heat-the-Tun"><a href="#1-Pre-Heat-the-Tun" class="headerlink" title="1.  Pre-Heat the Tun!"></a>1.  Pre-Heat the Tun!</h4><p>With a kettle like this the stainless and rubber need to be pre-heated.  From what I have found the heat absorption rate is slow, so if you strike and hit your temp when the kettle is cold it will slowly drop 6-8 degrees.  This is due to the stainless and rubber slowly absorbing the heat and not retaining it.  However, if you pre-heat your kettle with some hot tap water before striking, your heat loss will be less severe (maybe 1-2 degree depending on your ambient temp).</p>
+<h4 id="2-Make-sure-your-false-bottom-has-a-good-seal"><a href="#2-Make-sure-your-false-bottom-has-a-good-seal" class="headerlink" title="2.  Make sure your false bottom has a good seal"></a>2.  Make sure your false bottom has a good seal</h4><p>Originally I had a 13” hinged false bottom.  In most cases this works great!  However, in my case my keg had dents and dings on the bottom of it (or top since I used the sanke port).  This caused the stainless to not get a great seal, allowing a bunch of grain to pass by the false bottom.  This in turn would clog my grant and create some initial headaches in the vorlauf process.</p>
+</div><div class="article-licensing box"><div class="licensing-title"><p>Mash Tun Overhaul</p><p><a href="http://fullstackbrewing.com/2017/05/20/Mash-Tun-Overhaul/">http://fullstackbrewing.com/2017/05/20/Mash-Tun-Overhaul/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>Author</h6><p>Ben Griffith</p></div></div><div class="level-item is-narrow"><div><h6>Posted on</h6><p>2017-05-20</p></div></div><div class="level-item is-narrow"><div><h6>Updated on</h6><p>2023-03-29</p></div></div><div class="level-item is-narrow"><div><h6>Licensed under</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/engineering/">engineering</a><a class="link-muted mr-2" rel="tag" href="/tags/mash-tun/">mash tun</a><a class="link-muted mr-2" rel="tag" href="/tags/keg/">keg</a></div><!--!--></article></div><div class="card"><div class="card-content"><h3 class="menu-label has-text-centered">Like this article? Support the author with</h3><div class="buttons is-centered"><a class="button donate" href="https://www.buymeacoffee.com/WoEhVsNsaK" target="_blank" rel="noopener" data-type="buymeacoffee"><span class="icon is-small"><i class="fas fa-coffee"></i></span><span>Buy me a coffee</span></a><a class="button donate" data-type="paypal" onclick="document.getElementById(&#039;paypal-donate-form&#039;).submit()"><span class="icon is-small"><i class="fab fa-paypal"></i></span><span>Paypal</span></a><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" rel="noopener" id="paypal-donate-form"><input type="hidden" name="cmd" value="_donations"><input type="hidden" name="business" value="griffith.ben@gmail.com"><input type="hidden" name="currency_code" value="USD"></form></div></div></div><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2018/03/06/Missouri-Beer-Festival-2018/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">2018 Missouri Beer Festival</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2017/01/04/Quick-Tip-Storing-Yeast/"><span class="level-item">Quick Tip: Storing Yeast</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">Comments</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'http://fullstackbrewing.com/2017/05/20/Mash-Tun-Overhaul/';
+            this.page.identifier = '2017/05/20/Mash-Tun-Overhaul/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'fullstackbrewing' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/fullstack_logo.png" alt="Fullstack Brewing"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Fullstack Brewing</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Columbia, MO</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/archives"><p class="title">8</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/categories"><p class="title">5</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/tags"><p class="title">16</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://www.instagram.com/fullstackbrewing/" target="_blank" rel="noopener">Follow</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/fullstackbrewing/fullstack-blog"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Facebook" href="https://www.facebook.com/fullstackbrewing"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Twitter" href="https://twitter.com/fullstackbeer"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Instagram" href="https://www.instagram.com/fullstackbrewing/"><i class="fab fa-instagram"></i></a></div></div></div><!--!--><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">Categories</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/brewing/"><span class="level-start"><span class="level-item">brewing</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/events/"><span class="level-start"><span class="level-item">events</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/hardware/"><span class="level-start"><span class="level-item">hardware</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li><li><a class="level is-mobile" href="/categories/life/"><span class="level-start"><span class="level-item">life</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/recipe/"><span class="level-start"><span class="level-item">recipe</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><figure class="media-left"><a class="image" href="/2023/03/28/The-Quest-For-Quad/"><img src="/img/covers/quest-for-quad-cover.jpg" alt="The Quest for Quad"></a></figure><div class="media-content"><p class="date"><time dateTime="2023-03-28T12:00:00.000Z">2023-03-28</time></p><p class="title"><a href="/2023/03/28/The-Quest-For-Quad/">The Quest for Quad</a></p><p class="categories"><a href="/categories/recipe/">recipe</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/2023/02/21/Fast-Forward-Half-A-Decade/"><img src="/img/covers/fast-forward-half-a-decade-cover.jpg" alt="Fast Forward Half A Decade"></a></figure><div class="media-content"><p class="date"><time dateTime="2023-02-21T23:57:50.000Z">2023-02-21</time></p><p class="title"><a href="/2023/02/21/Fast-Forward-Half-A-Decade/">Fast Forward Half A Decade</a></p><p class="categories"><a href="/categories/life/">life</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/2019/01/15/Homebrewing-A-Steinbier/"><img src="/img/covers/steinbier-cover-new.jpg" alt="Homebrewing a Steinbier"></a></figure><div class="media-content"><p class="date"><time dateTime="2019-01-15T12:00:00.000Z">2019-01-15</time></p><p class="title"><a href="/2019/01/15/Homebrewing-A-Steinbier/">Homebrewing a Steinbier</a></p><p class="categories"><a href="/categories/brewing/">brewing</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/2018/03/06/Missouri-Beer-Festival-2018/"><img src="/img/covers/missouri-beerfest-2018-cover.jpg" alt="2018 Missouri Beer Festival"></a></figure><div class="media-content"><p class="date"><time dateTime="2018-03-06T23:36:14.000Z">2018-03-06</time></p><p class="title"><a href="/2018/03/06/Missouri-Beer-Festival-2018/">2018 Missouri Beer Festival</a></p><p class="categories"><a href="/categories/events/">events</a></p></div></article><article class="media"><figure class="media-left"><a class="image" href="/2017/05/20/Mash-Tun-Overhaul/"><img src="/img/covers/mash-tun-cover.jpg" alt="Mash Tun Overhaul"></a></figure><div class="media-content"><p class="date"><time dateTime="2017-05-20T12:00:00.000Z">2017-05-20</time></p><p class="title"><a href="/2017/05/20/Mash-Tun-Overhaul/">Mash Tun Overhaul</a></p><p class="categories"><a href="/categories/hardware/">hardware</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2023/03/"><span class="level-start"><span class="level-item">March 2023</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2023/02/"><span class="level-start"><span class="level-item">February 2023</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2019/01/"><span class="level-start"><span class="level-item">January 2019</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2018/03/"><span class="level-start"><span class="level-item">March 2018</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2017/05/"><span class="level-start"><span class="level-item">May 2017</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2017/01/"><span class="level-start"><span class="level-item">January 2017</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/archives/2016/12/"><span class="level-start"><span class="level-item">December 2016</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">Tags</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/beer/"><span class="tag">beer</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/belgian/"><span class="tag">belgian</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/blichmann/"><span class="tag">blichmann</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/blowoff/"><span class="tag">blowoff</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/engineering/"><span class="tag">engineering</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/festival/"><span class="tag">festival</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/grant/"><span class="tag">grant</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/homebrew/"><span class="tag">homebrew</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/keg/"><span class="tag">keg</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/life/"><span class="tag">life</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/mash-tun/"><span class="tag">mash tun</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/recipe/"><span class="tag">recipe</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/steinbier/"><span class="tag">steinbier</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/storage/"><span class="tag">storage</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/thermowell/"><span class="tag">thermowell</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/yeast/"><span class="tag">yeast</span><span class="tag">1</span></a></div></div></div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/fullstack_nav_logo.png" alt="Fullstack Brewing" height="28"></a><p class="is-size-7"><span>&copy; 2023 Ben Griffith</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="View on Instagram" href="https://www.instagram.com/fullstackbrewing/"><i class="fab fa-instagram"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="View on Facebook" href="https://www.facebook.com/fullstackbrewing"><i class="fab fa-facebook"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="View on Twitter" href="https://twitter.com/fullstackbeer"><i class="fab fa-twitter"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="View on GitHub" href="https://github.com/fullstackbrewing/fullstack-blog"><i class="fab fa-github"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "This website uses cookies to improve your experience.",
+          dismiss: "Got it!",
+          allow: "Allow cookies",
+          deny: "Decline",
+          link: "Learn more",
+          policy: "Cookie Policy",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>
